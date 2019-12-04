@@ -18,7 +18,7 @@ Feature: Drupal Basics
     # THIS IS NECESSARY BECAUSE IN OUR TEARDOWN WE DELETE ALL ORPHANS AND WE
     # DON'T WANT TO DELETE SOMETHING YOU CARE ABOUT...
 
-  @apache @javascript @drupal
+  @apache @javascript @drupal @disabled
   Scenario: Viewing homepage
     Given I am an anonymous user
     And I am on "/"
